@@ -1,0 +1,53 @@
+# .NET build outputs
+bin/
+obj/
+out/
+
+# Avalonia resources (compiled)
+*.axaml.cs.*
+*.g.cs
+*.g.i.cs
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio files
+.vs/
+.vscode/
+*.dbmdl
+*.pdb
+*.cache
+*.log
+
+# NuGet packages
+*.nupkg
+.nuget/
+packages/
+# Uncomment if using package restore
+# **/packages/*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+# Avalonia designer files
+Avalonia.DesignerSupport/
+
+# Test results
+TestResults/
+*.trx
+
+# Build artifacts
+publish/
