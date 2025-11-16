@@ -28,7 +28,7 @@
                 Width="300" 
                 Height="40" 
                 HorizontalAlignment="Left"
-                Background="#3D3D3D"
+                Background="#228B22"
                 HorizontalContentAlignment="Center"
                 VerticalContentAlignment="Center"
              />
@@ -38,7 +38,7 @@
                 Width="300" 
                 Height="40" 
                 HorizontalAlignment="Left"
-                Background="#3D3D3D"
+                Background="#B22222"
                 HorizontalContentAlignment="Center"
                 VerticalContentAlignment="Center"
              />
