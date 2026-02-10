@@ -1,19 +1,19 @@
 ﻿using Avalonia.Layout;
 using Avalonia.Media;
 using AvaloniaToaster.Interfaces;
-using System;
+using AvaloniaToasterTestProject.Themes;
 
-namespace AvaloniaToasterTestProject.Themes;
+namespace AvaloniaToasterDevProject.Themes;
 
-internal class ErrorTheme : IAvaloniaToasterThemes
+public class ErrorTheme : IAvaloniaToasterThemes
 {
     public IBrush BackgroundColor => Avalonia.Media.Brushes.Red;
 
     public IBrush ForegroundColor => Avalonia.Media.Brushes.White;
 
-    public HorizontalAlignment? HorizontalAlignment => null;
+    public HorizontalAlignment? HorizontalAlignment => Avalonia.Layout.HorizontalAlignment.Right;
 
-    public VerticalAlignment? VerticalAlignment => null;
+    public VerticalAlignment? VerticalAlignment => Avalonia.Layout.VerticalAlignment.Bottom;
 
-    public double? BorderRadius => 3;
+    public double? BorderRadius => null;
 }

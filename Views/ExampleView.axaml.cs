@@ -1,9 +1,9 @@
 ﻿using Avalonia.Controls;
 using AvaloniaToaster;
-using AvaloniaToasterTestProject.Themes;
+using AvaloniaToasterDevProject.Themes;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace AvaloniaToasterTestProject.Views;
+namespace AvaloniaToasterDevProject.Views;
 
 public partial class ExampleView : UserControl
 {

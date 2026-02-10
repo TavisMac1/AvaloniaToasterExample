@@ -1,9 +1,9 @@
 using Avalonia.Controls;
 using AvaloniaToaster;
-using AvaloniaToasterTestProject.Views;
+using AvaloniaToasterDevProject.Views;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace AvaloniaToasterTestProject;
+namespace AvaloniaToasterDevProject;
 
 public partial class MainWindow : Window
 {
@@ -12,7 +12,8 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
         _toastNotificationService = Program.Services.GetRequiredService<ToastNotificationService>();
-        _toastNotificationService.RegisterMainWindow(this);
+        var toastContainer = this.FindControl<Panel>("ToastContainer");
+        _toastNotificationService.RegisterMainWindow(toastContainer);
         InjectExampleView();
     }
 

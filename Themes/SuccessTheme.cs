@@ -1,12 +1,13 @@
 ﻿using Avalonia.Layout;
 using Avalonia.Media;
 using AvaloniaToaster.Interfaces;
+using AvaloniaToasterTestProject.Themes;
 
-namespace AvaloniaToasterTestProject.Themes;
+namespace AvaloniaToasterDevProject.Themes;
 
-internal class SuccessTheme : IAvaloniaToasterThemes
+public class SuccessTheme : IAvaloniaToasterThemes
 {
-    public IBrush BackgroundColor => Avalonia.Media.Brushes.Green;
+    public  IBrush BackgroundColor => Avalonia.Media.Brushes.Green;
 
     public IBrush ForegroundColor => Avalonia.Media.Brushes.White;
 

@@ -3,7 +3,7 @@ using AvaloniaToaster;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace AvaloniaToasterTestProject;
+namespace AvaloniaToasterDevProject;
 
 internal class Program
 {
